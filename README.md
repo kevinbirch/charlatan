@@ -5,7 +5,7 @@
 [![BSD](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/percolate/charlatan/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/percolate/charlatan)](https://goreportcard.com/report/github.com/percolate/charlatan)
 
-Percolate's Go Interface Mocking Tool.  Please read our [introductory blog post](https://medium.com/percolate-engineering/introducing-charlatan-df9b5d3d3107).
+Go Interface Mocking Tool.  Please read our [introductory blog post](https://medium.com/percolate-engineering/introducing-charlatan-df9b5d3d3107).
 
 ## Installation
 
