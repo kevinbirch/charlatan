@@ -1,15 +1,13 @@
 # Charlatan
 
-[![Circle CI](https://circleci.com/gh/percolate/charlatan.svg?style=svg)](https://circleci.com/gh/percolate/charlatan)
-[![codecov.io](https://codecov.io/github/percolate/charlatan/coverage.svg?branch=master)](https://codecov.io/github/percolate/charlatan?branch=master)
-[![BSD](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/percolate/charlatan/blob/master/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/percolate/charlatan)](https://goreportcard.com/report/github.com/percolate/charlatan)
+[![BSD](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/kevinbirch/charlatan/blob/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kevinbirch/charlatan)](https://goreportcard.com/report/github.com/kevinbirch/charlatan)
 
-Go Interface Mocking Tool.  Please read our [introductory blog post](https://medium.com/percolate-engineering/introducing-charlatan-df9b5d3d3107).
+Go Interface Mocking Tool.
 
 ## Installation
 
-    go get github.com/percolate/charlatan
+    go get github.com/kevinbirch/charlatan
 
 ## Usage
 
@@ -21,8 +19,6 @@ Options:
 
   -dir string
         input package directory [default: current package directory]
-  -file value
-        name of input file, may be repeated, ignored if -dir is present
   -output string
         output file path [default: ./charlatan.go]
   -package string
@@ -37,7 +33,7 @@ directive:
 
 or from the command line:
 
-    charlatan -file=path/to/file.go Interface
+    charlatan Interface
 
 You can chose the output path using `-output`, which must include the
 name of the generated source file.  Any intermediate directories in the
